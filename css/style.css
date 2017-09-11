@@ -3,8 +3,12 @@ html,body{
 	padding: 0;
 	font-family: 'source sans pro',sans-serif;
 }
+body{
+	background-color: #504e4e;
+}
 .wrapper{
 	width: 100%;
+	background-color: #504e4e;
 }
 .wrapper > header{
 	width: 100%;
@@ -17,6 +21,7 @@ html,body{
 }
 .wrapper > header .title span{
 	font-size: 1.4rem;
+	margin-left: 2rem;
 }
 .wrapper > header img{
 	width: 4rem;
